@@ -1,28 +1,30 @@
 <!DOCTYPE html>
 <html lang="fr">
-	<head>
-		<meta charset="UTF-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<link rel="stylesheet" href="./assets/css/style.css" />
-		<title>Création d'une Interface Utilisateur pour un Livre</title>
-	</head>
-	<body>
-		<div id="book">
-			<form id="bookForm">
-				<label for="bookTitle">Titre du Livre:</label>
-				<input type="text" id="bookTitle" name="bookTitle" /><br /><br />
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <title>Création d'une Interface Utilisateur pour un Livre</title>
+  </head>
+  <body>
+      <div id="book">
+        <form id="bookForm">
+          <label for="bookTitle">Titre du Livre:</label>
+          <input type="text" id="bookTitle" name="bookTitle" /><br /><br />
 
-				<label for="bookAuthor">Auteur du Livre:</label>
-				<input type="text" id="bookAuthor" name="bookAuthor" /><br /><br />
+          <label for="bookAuthor">Auteur du Livre:</label>
+          <input type="text" id="bookAuthor" name="bookAuthor" /><br /><br />
 
-				<label for="bookDescription">Description du Livre:</label><br />
-				<textarea id="bookDescription" name="bookDescription" rows="4" cols="50"></textarea
-				><br /><br />
+          <label for="bookDescription">Description du Livre:</label><br />
+          <textarea id="bookDescription" name="bookDescription" rows="4" cols="50"></textarea><br /><br />
 
-				<button id="submit" type="submit"><span>Ajouter</span></button>
-			</form>
-		</div>
-		<ul id="cartList"></ul>
-		<script src="./assets/js/script.js"></script>
-	</body>
+          <button id="submit" type="submit"><span>Ajouter</span></button>
+        </form>
+      </div>
+      <ul id="cartList"></ul>
+    <footer>
+      <img class="az" src="./assets/image/azvinquer.png" alt="" />
+    </footer>
+    <script src="./assets/js/script.js"></script>
+  </body>
 </html>
