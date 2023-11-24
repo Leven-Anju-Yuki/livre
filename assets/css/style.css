@@ -5,15 +5,36 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 100vh;
+  padding-top: 15px;
 }
+/* Style des sections */
+section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+  margin: 0px 200px;
+  margin: auto;
+}
+
+/* Style des articles */
+/* article {
+  /* display: flex; */
+  /* flex-direction: column;
+  justify-content: space-around;
+  align-items: stretch; */
+  /* width: 100%; 
+} */
+/* aside {
+  width: 100%;
+} */
 div {
   background: linear-gradient(rgba(225, 130, 7, 0.603), rgba(0, 0, 0, 0.802));
 }
 .container {
   background-color: #fff;
   padding: 10px;
-  border-radius: 8px;
+  /* border-radius: 8px; */
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
@@ -30,7 +51,7 @@ label {
 
 input,
 textarea {
-  margin-bottom: 10px;
+  margin-bottom: 5px;
   padding: 8px;
 }
 
@@ -70,7 +91,7 @@ p {
   text-shadow: 0.5px 0.5px #fafafad8;
 }
 li {
-  background: linear-gradient(10deg,rgba(225, 130, 7, 0.603), rgba(0, 0, 0, 0.579));
+  background: linear-gradient(10deg, rgba(225, 130, 7, 0.603), rgba(0, 0, 0, 0.579));
   margin: 5px;
   padding: 20px;
   border-radius: 4px;
@@ -80,11 +101,22 @@ b {
   color: #ec0000;
   text-shadow: none;
 }
-.az {
+/*.az {
   width: 100px;
 }
-footer {
+ footer {
   text-align: center;
   padding-top: 600px;
   margin-right: 40%;
+} */
+
+@media screen and (max-width: 1024px) {
+
+section {
+  display: block;
 }
+
+article {
+  width: 100%;
+  font-size: 1.3em;
+}}
