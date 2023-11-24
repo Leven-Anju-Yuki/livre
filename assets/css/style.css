@@ -30,6 +30,7 @@ section {
 } */
 div {
   background: linear-gradient(rgba(225, 130, 7, 0.603), rgba(0, 0, 0, 0.802));
+  width: 25%;
 }
 .container {
   background-color: #fff;
